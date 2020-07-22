@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  PHP Travel Test Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PHP Travel Test Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 03 19:56:00 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>460 seconds (460810 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseCurrency()'><b>chooseCurrency</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseLanguage()'><b>chooseLanguage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomePageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: John, smith, JohnS@abc.com, John123@, 1.234567998E9, Canada</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Michael, Smith, MichaelS@abc.com, Michael123@, 9.87654321E9, United States</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Bill, Kelly, BillK123@xyz.com, BillK123@, 2.345678901E9, India</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Adam, Brand, AdamB@rtysf.com, AdamB123, 3.456789012E9, China</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Will, Henderson, WillH@xyz.com, WillH123, 4.567901244E9, United Kingdom</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Sam, C, Samc123@rte.com, SamC123, 1.23456789E9, India</td>
+<td></td>
+<td>6</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Pri, Sahani, PriS@yahhoo.com, PriS123, 2.345567754E9, Canada</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: David, Bakharia, DavidS@yahhoo.com, DavidS123, 5.678765433E9, Brazil</td>
+<td></td>
+<td>4</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Sean, Banerjee, SeanS@yahhoo.com, SeanS123, 8.9966553847E10, Ukraine</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Neha, Jhakoti, NehaS@yahhoo.com, NehaS123, 3.4636528762E10, Turkey</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Ramya, Tatvarthi, RamyaS@yahhoo.com, RamyaS123, 8.996553847E9, Uganda</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.fillOutTheForm()'><b>fillOutTheForm</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.indexPageTitleTest()'><b>indexPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountLoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountLoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomePageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountLoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountLoginPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateAdminAccountHomePage()'><b>validateAdminAccountHomePage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateBlogLink()'><b>validateBlogLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateCheckPricingLink()'><b>validateCheckPricingLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateDocsLink()'><b>validateDocsLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateExploreDemoPage()'><b>validateExploreDemoPage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateHomePageFrontUserHomePage()'><b>validateHomePageFrontUserHomePage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateImgLogo()'><b>validateImgLogo</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.validateLoginImgTest()'><b>validateLoginImgTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateLoginLink()'><b>validateLoginLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateLoginPage()'><b>validateLoginPage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.validateLogoImg()'><b>validateLogoImg</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateLogoLink()'><b>validateLogoLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@149e0f5d</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validatePageTitle()'><b>validatePageTitle</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateSignInPage()'><b>validateSignInPage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab</td></tr>
+</table><p>
+</body>
+</html>

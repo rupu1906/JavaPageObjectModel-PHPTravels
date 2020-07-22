@@ -1,0 +1,636 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 22 16:32:24 EDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>642 seconds (642935 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseLanguage()'><b>chooseLanguage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d1effdd1908437fb74dc7380fa65753c
+*** Element info: {Using=xpath, value=//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.chooseLanguage(HomePageFrontUserHomePage.java:81)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseLanguage(HomePageFrontUserHomePageTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace479105005", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace479105005'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d1effdd1908437fb74dc7380fa65753c
+*** Element info: {Using=xpath, value=//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.chooseLanguage(HomePageFrontUserHomePage.java:81)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseLanguage(HomePageFrontUserHomePageTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>45</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.fillOutTheForm()'><b>fillOutTheForm</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d830292969088abfc63ebc097a2da3
+*** Element info: {Using=xpath, value=//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.fillOutForm(HomePageFrontUserHomePage.java:94)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.fillOutTheForm(HomePageFrontUserHomePageTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace683005404", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace683005404'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d830292969088abfc63ebc097a2da3
+*** Element info: {Using=xpath, value=//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.fillOutForm(HomePageFrontUserHomePage.java:94)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.fillOutTheForm(HomePageFrontUserHomePageTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>22</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateImgLogo()'><b>validateImgLogo</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateImgLogo(HomePageFrontUserHomePageTest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace908845261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace908845261'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateImgLogo(HomePageFrontUserHomePageTest.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateLoginPage()'><b>validateLoginPage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 95e61ef4a58c0eb088500c5a36dd12b4
+*** Element info: {Using=xpath, value=//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.clickOnLogin(HomePageFrontUserHomePage.java:65)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateLoginPage(HomePageFrontUserHomePageTest.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1629105538", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1629105538'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 95e61ef4a58c0eb088500c5a36dd12b4
+*** Element info: {Using=xpath, value=//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.phptravels.qa.pages.HomePageFrontUserHomePage.clickOnLogin(HomePageFrontUserHomePage.java:65)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateLoginPage(HomePageFrontUserHomePageTest.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>24</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validatePageTitle()'><b>validatePageTitle</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td><div><pre>java.lang.AssertionError: expected [PHPTRAVELS | Travel Technology Partner] but found [Loading...]
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validatePageTitle(HomePageFrontUserHomePageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2050277878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050277878'><pre>java.lang.AssertionError: expected [PHPTRAVELS | Travel Technology Partner] but found [Loading...]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validatePageTitle(HomePageFrontUserHomePageTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseCurrency()'><b>chooseCurrency</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomePageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomePageTest@3754a4bf</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: John, smith, JohnS@abc.com, John123@, 1.234567998E9, Canada</td>
+<td></td>
+<td>6</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Michael, Smith, MichaelS@abc.com, Michael123@, 9.87654321E9, United States</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Bill, Kelly, BillK123@xyz.com, BillK123@, 2.345678901E9, India</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Adam, Brand, AdamB@rtysf.com, AdamB123, 3.456789012E9, China</td>
+<td></td>
+<td>8</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Will, Henderson, WillH@xyz.com, WillH123, 4.567901244E9, United Kingdom</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Sam, C, Samc123@rte.com, SamC123, 1.23456789E9, India</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Pri, Sahani, PriS@yahhoo.com, PriS123, 2.345567754E9, Canada</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: David, Bakharia, DavidS@yahhoo.com, DavidS123, 5.678765433E9, Brazil</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Sean, Banerjee, SeanS@yahhoo.com, SeanS123, 8.9966553847E10, Ukraine</td>
+<td></td>
+<td>11</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Neha, Jhakoti, NehaS@yahhoo.com, NehaS123, 3.4636528762E10, Turkey</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.clickOnSuppliers()'><b>clickOnSuppliers</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest<br>Parameters: Ramya, Tatvarthi, RamyaS@yahhoo.com, RamyaS123, 8.996553847E9, Uganda</td>
+<td></td>
+<td>10</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.indexPageTitleTest()'><b>indexPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomePageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomePageTest@3754a4bf</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountLoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountLoginPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.phptravels.qa.testcases.AdminAccountLoginPageTest@4afcd809</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@5bf0d49</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountLoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.phptravels.qa.testcases.AdminAccountLoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.phptravels.qa.testcases.AdminAccountLoginPageTest@4afcd809</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.loginTest()'><b>loginTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@5bf0d49</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateAdminAccountHomePage()'><b>validateAdminAccountHomePage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateBlogLink()'><b>validateBlogLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateCheckPricingLink()'><b>validateCheckPricingLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateDocsLink()'><b>validateDocsLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateExploreDemoPage()'><b>validateExploreDemoPage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateHomePageFrontUserHomePage()'><b>validateHomePageFrontUserHomePage</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest.validateLoginImgTest()'><b>validateLoginImgTest</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@5bf0d49</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateLoginLink()'><b>validateLoginLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest.validateLogoImg()'><b>validateLogoImg</b><br>Test class: com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@62379589</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.IndexPageTest.validateLogoLink()'><b>validateLogoLink</b><br>Test class: com.phptravels.qa.testcases.IndexPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.phptravels.qa.testcases.IndexPageTest@5b7a5baa</td></tr>
+<tr>
+<td title='com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateSignInPage()'><b>validateSignInPage</b><br>Test class: com.phptravels.qa.testcases.HomePageFrontUserHomePageTest</td>
+<td></td>
+<td>7</td>
+<td>com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@175c2241</td></tr>
+</table><p>
+</body>
+</html>

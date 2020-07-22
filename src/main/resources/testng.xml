@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PHP Travel Test Automation Suits">
+
+<listeners>
+<listener class-name="com.phptravels.qa.ExtendReportListener.ExtentReporterNG" />
+</listeners>
+
+<test name="PHP Travel Test Regression">
+
+
+<classes>
+  <class name="com.phptravels.qa.testcases.IndexPageTest" />
+   <class name="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" />
+ <class name="com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest" />
+ <class name="com.phptravels.qa.testcases.AdminAccountLoginPageTest" />
+ <class name="com.phptravels.qa.testcases.AdminAccountHomePageTest" />
+ <class name="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" />
+ 
+</classes> 
+ 
+ </test>
+
+</suite>

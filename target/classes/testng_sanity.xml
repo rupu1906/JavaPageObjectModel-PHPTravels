@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PHP Travel Test Automation Suits">
+<test name="PHP Travel Test Sanity">
+<classes>
+  <class name="com.phptravels.qa.testcases.IndexPageTest" />
+   <class name="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" />
+ 
+</classes> 
+ 
+ </test>
+
+</suite>

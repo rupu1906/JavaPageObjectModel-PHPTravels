@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="644.392" tests="36" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest\target\test-classes;C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest\target\classes;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sharmistha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sharmistha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sharmistha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sharmistha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sharmistha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sharmistha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sharmistha\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sharmistha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sharmistha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sharmistha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sharmistha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sharmistha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sharmistha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sharmistha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sharmistha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sharmistha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-excelant\4.1.2\poi-excelant-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sharmistha\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sharmistha\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sharmistha\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sharmistha\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sharmistha\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sharmistha\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sharmistha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sharmistha\AppData\Local\Temp\surefire16282759209815039318\surefirebooter16454615020828186700.jar C:\Users\Sharmistha\AppData\Local\Temp\surefire16282759209815039318 2020-07-22T16-32-21_733-jvmRun1 surefire10102532560946464205tmp surefire_013007524676346159045tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest\target\test-classes;C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest\target\classes;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sharmistha\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sharmistha\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sharmistha\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sharmistha\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sharmistha\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sharmistha\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sharmistha\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sharmistha\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sharmistha\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sharmistha\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sharmistha\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sharmistha\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sharmistha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sharmistha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sharmistha\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sharmistha\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sharmistha\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\poi-excelant\4.1.2\poi-excelant-4.1.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\Sharmistha\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sharmistha\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sharmistha\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sharmistha\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sharmistha\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sharmistha\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sharmistha\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sharmistha\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Sharmistha\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sharmistha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sharmistha\AppData\Local\Temp\surefire16282759209815039318\surefirebooter16454615020828186700.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="Sharmistha"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Sharmistha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sharmistha\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="C:\Users\Sharmistha\Documents\Java Training\PHPTravelsTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Sharmistha\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-11.0.7\bin;C:\Users\Sharmistha\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomePageTest" time="2.909"/>
+  <testcase name="loginPageTitleTest" classname="com.phptravels.qa.testcases.AdminAccountHomePageTest" time="0.095"/>
+  <testcase name="loginPageTitleTest" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="0.011"/>
+  <testcase name="validateLogoImg" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="1.689"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="6.462"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="9.222"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="5.898"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="8.893"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="9.772"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="5.492"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="5.688"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="5.946"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="11.727"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="9.429"/>
+  <testcase name="clickOnSuppliers" classname="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest" time="10.278"/>
+  <testcase name="loginPageTitleTest" classname="com.phptravels.qa.testcases.AdminAccountLoginPageTest" time="9.851"/>
+  <testcase name="loginTest" classname="com.phptravels.qa.testcases.AdminAccountLoginPageTest" time="3.466"/>
+  <testcase name="chooseCurrency" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="3.919"/>
+  <testcase name="chooseLanguage" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="45.419">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d1effdd1908437fb74dc7380fa65753c&#10;*** Element info: {Using=xpath, value=//h2[@class=&apos;float-none&apos; and contains(text(),&apos;Nouvelles du blog&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='float-none' and contains(text(),'Nouvelles du blog')]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d1effdd1908437fb74dc7380fa65753c
+*** Element info: {Using=xpath, value=//h2[@class='float-none' and contains(text(),'Nouvelles du blog')]}
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.chooseLanguage(HomePageFrontUserHomePageTest.java:64)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://phptravels.com/demo/'
+Navigated to:'https://phptravels.com/demo/'
+Trying to find Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Found Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1effdd1908437fb74dc7380fa65753c)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1effdd1908437fb74dc7380fa65753c)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Trying to find Element By : By.xpath: //ul//li/descendant::div[@class='dropdown dropdown-language']//a[@id='dropdownLangauge']
+Found Element By : By.xpath: //ul//li/descendant::div[@class='dropdown dropdown-language']//a[@id='dropdownLangauge']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1effdd1908437fb74dc7380fa65753c)] -> xpath: //ul//li/descendant::div[@class='dropdown dropdown-language']//a[@id='dropdownLangauge']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1effdd1908437fb74dc7380fa65753c)] -> xpath: //ul//li/descendant::div[@class='dropdown dropdown-language']//a[@id='dropdownLangauge']]
+Trying to find Element By : By.xpath: //ul//li/descendant::div[@class='dropdown-menu dropdown-menu-right show']//a
+Found Element By : By.xpath: //ul//li/descendant::div[@class='dropdown-menu dropdown-menu-right show']//a
+Trying to find Element By : By.xpath: //h2[@class='float-none' and contains(text(),'Nouvelles du blog')]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='float-none' and contains(text(),'Nouvelles du blog')]"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d1effdd1908437fb74dc7380fa65753c
+*** Element info: {Using=xpath, value=//h2[@class='float-none' and contains(text(),'Nouvelles du blog')]}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19122
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 22, 2020 4:38:34 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="fillOutTheForm" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="22.676">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 47d830292969088abfc63ebc097a2da3&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;s2id_autogen10&apos;]//a[@class=&apos;select2-choice&apos;]//span[text()=&apos;Search by Hotel or City Name&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='s2id_autogen10']//a[@class='select2-choice']//span[text()='Search by Hotel or City Name']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d830292969088abfc63ebc097a2da3
+*** Element info: {Using=xpath, value=//div[@id='s2id_autogen10']//a[@class='select2-choice']//span[text()='Search by Hotel or City Name']}
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.fillOutTheForm(HomePageFrontUserHomePageTest.java:70)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://phptravels.com/demo/'
+Navigated to:'https://phptravels.com/demo/'
+Trying to find Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Found Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (47d830292969088abfc63ebc097a2da3)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (47d830292969088abfc63ebc097a2da3)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Trying to find Element By : By.xpath: //div[@id='s2id_autogen10']//a[@class='select2-choice']//span[text()='Search by Hotel or City Name']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='s2id_autogen10']//a[@class='select2-choice']//span[text()='Search by Hotel or City Name']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 47d830292969088abfc63ebc097a2da3
+*** Element info: {Using=xpath, value=//div[@id='s2id_autogen10']//a[@class='select2-choice']//span[text()='Search by Hotel or City Name']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 28817
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 22, 2020 4:39:28 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateImgLogo" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="3.128">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateImgLogo(HomePageFrontUserHomePageTest.java:44)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://phptravels.com/demo/'
+Navigated to:'https://phptravels.com/demo/'
+Trying to find Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Found Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (a775338d0658f029ae7c32c3460bdbda)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (a775338d0658f029ae7c32c3460bdbda)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Trying to find Element By : By.xpath: //div[@class='col-md-4 col-2 o2']//div//a//img
+Found Element By : By.xpath: //div[@class='col-md-4 col-2 o2']//div//a//img
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 37131
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 22, 2020 4:40:00 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateLoginPage" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="24.243">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-ALJ1I0Q&apos;, ip: &apos;192.168.0.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 95e61ef4a58c0eb088500c5a36dd12b4&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;dropdown-menu dropdown-menu-right show&apos;]//a[text()=&apos;Login&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Login']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 95e61ef4a58c0eb088500c5a36dd12b4
+*** Element info: {Using=xpath, value=//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Login']}
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validateLoginPage(HomePageFrontUserHomePageTest.java:49)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://phptravels.com/demo/'
+Navigated to:'https://phptravels.com/demo/'
+Trying to find Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Found Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (95e61ef4a58c0eb088500c5a36dd12b4)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (95e61ef4a58c0eb088500c5a36dd12b4)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Trying to find Element By : By.xpath:  //ul//li/descendant::div[@class='dropdown dropdown-login dropdown-tab']
+Found Element By : By.xpath:  //ul//li/descendant::div[@class='dropdown dropdown-login dropdown-tab']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (95e61ef4a58c0eb088500c5a36dd12b4)] -> xpath:  //ul//li/descendant::div[@class='dropdown dropdown-login dropdown-tab']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (95e61ef4a58c0eb088500c5a36dd12b4)] -> xpath:  //ul//li/descendant::div[@class='dropdown dropdown-login dropdown-tab']]
+Trying to find Element By : By.xpath: //div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Login']
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Login']"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-ALJ1I0Q', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Sharmistha\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:54901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 95e61ef4a58c0eb088500c5a36dd12b4
+*** Element info: {Using=xpath, value=//div[@class='dropdown-menu dropdown-menu-right show']//a[text()='Login']}
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 33225
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 22, 2020 4:40:13 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validatePageTitle" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="2.048">
+    <failure message="expected [PHPTRAVELS | Travel Technology Partner] but found [Loading...]" type="java.lang.AssertionError">java.lang.AssertionError: expected [PHPTRAVELS | Travel Technology Partner] but found [Loading...]
+	at com.phptravels.qa.testcases.HomePageFrontUserHomePageTest.validatePageTitle(HomePageFrontUserHomePageTest.java:39)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://phptravels.com/demo/'
+Navigated to:'https://phptravels.com/demo/'
+Trying to find Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Found Element By : By.xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (80d2d2415cb4aff40c890ac13841e637)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (80d2d2415cb4aff40c890ac13841e637)] -> xpath: //div[@class='col-md-6']//a[@class='btn btn-primary btn-lg btn-block']//small[text()='http://www.phptravels.net']]
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 38454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul. 22, 2020 4:40:45 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateSignInPage" classname="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest" time="7.325"/>
+  <testcase name="loginPageTitleTest" classname="com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest" time="0.05"/>
+  <testcase name="validateLoginImgTest" classname="com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest" time="0.049"/>
+  <testcase name="loginTest" classname="com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest" time="0.489"/>
+  <testcase name="validateAdminAccountHomePage" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.267"/>
+  <testcase name="validateBlogLink" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.071"/>
+  <testcase name="validateCheckPricingLink" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.061"/>
+  <testcase name="validateDocsLink" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.047"/>
+  <testcase name="validateExploreDemoPage" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.071"/>
+  <testcase name="validateHomePageFrontUserHomePage" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.185"/>
+  <testcase name="validateLoginLink" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.037"/>
+  <testcase name="validateLogoLink" classname="com.phptravels.qa.testcases.IndexPageTest" time="5.057"/>
+  <testcase name="indexPageTitleTest" classname="com.phptravels.qa.testcases.IndexPageTest" time="0.005"/>
+</testsuite>

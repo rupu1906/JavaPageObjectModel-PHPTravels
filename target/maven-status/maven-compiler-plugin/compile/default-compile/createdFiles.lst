@@ -1,0 +1,16 @@
+com\phptravels\qa\pages\PricingPage.class
+com\phptravels\qa\pages\AdminAccountLoginPage.class
+com\phptravels\qa\pages\HomePageFrontUserHomePage.class
+com\phptravels\qa\util\WebEventListener.class
+com\phptravels\qa\pages\DocsPage.class
+com\phptravels\qa\pages\AdminAccountHomePage.class
+com\phptravels\qa\pages\ClientLoginPage.class
+com\phptravels\qa\pages\RegisterPage.class
+com\phptravels\qa\ExtendReportListener\ExtentReporterNG.class
+com\phptravels\qa\base\TestBase.class
+com\phptravels\qa\pages\AdminAccountHomeSuppliersPage.class
+com\phptravels\qa\pages\IndexPage.class
+com\phptravels\qa\pages\HomePageFrontUserHomeLoginUserPage.class
+com\phptravels\qa\util\TestUtil.class
+com\phptravels\qa\pages\BlogPage.class
+com\phptravels\qa\pages\HomePageFrontUserLoginPage.class

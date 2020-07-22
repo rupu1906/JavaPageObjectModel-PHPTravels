@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="36" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-03T19:56:00 EDT" name="PHP Travel Test Automation Suits" finished-at="2020-07-03T20:03:41 EDT" duration-ms="460810">
+    <groups>
+    </groups>
+    <test started-at="2020-07-03T19:56:00 EDT" name="PHP Travel Test Regression" finished-at="2020-07-03T20:03:41 EDT" duration-ms="460810">
+      <class name="com.phptravels.qa.testcases.IndexPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:00 EDT" name="setUp" finished-at="2020-07-03T19:56:07 EDT" duration-ms="7429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAdminAccountHomePage()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:07 EDT" name="validateAdminAccountHomePage" finished-at="2020-07-03T19:56:08 EDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminAccountHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:08 EDT" name="tearDown" finished-at="2020-07-03T19:56:08 EDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:08 EDT" name="setUp" finished-at="2020-07-03T19:56:14 EDT" duration-ms="6196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateBlogLink()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:14 EDT" name="validateBlogLink" finished-at="2020-07-03T19:56:15 EDT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBlogLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:15 EDT" name="tearDown" finished-at="2020-07-03T19:56:15 EDT" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:15 EDT" name="setUp" finished-at="2020-07-03T19:56:21 EDT" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCheckPricingLink()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:21 EDT" name="validateCheckPricingLink" finished-at="2020-07-03T19:56:21 EDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckPricingLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:21 EDT" name="tearDown" finished-at="2020-07-03T19:56:22 EDT" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:22 EDT" name="setUp" finished-at="2020-07-03T19:56:29 EDT" duration-ms="6551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDocsLink()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:29 EDT" name="validateDocsLink" finished-at="2020-07-03T19:56:29 EDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDocsLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:29 EDT" name="tearDown" finished-at="2020-07-03T19:56:29 EDT" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:29 EDT" name="setUp" finished-at="2020-07-03T19:56:36 EDT" duration-ms="6609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateExploreDemoPage()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:36 EDT" name="validateExploreDemoPage" finished-at="2020-07-03T19:56:36 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateExploreDemoPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:36 EDT" name="tearDown" finished-at="2020-07-03T19:56:36 EDT" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:36 EDT" name="setUp" finished-at="2020-07-03T19:56:43 EDT" duration-ms="6420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageFrontUserHomePage()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:43 EDT" name="validateHomePageFrontUserHomePage" finished-at="2020-07-03T19:56:43 EDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageFrontUserHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:43 EDT" name="tearDown" finished-at="2020-07-03T19:56:44 EDT" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:44 EDT" name="setUp" finished-at="2020-07-03T19:56:51 EDT" duration-ms="7333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginLink()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:51 EDT" name="validateLoginLink" finished-at="2020-07-03T19:56:51 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:51 EDT" name="tearDown" finished-at="2020-07-03T19:56:52 EDT" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:52 EDT" name="setUp" finished-at="2020-07-03T19:56:59 EDT" duration-ms="6426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogoLink()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:56:59 EDT" name="validateLogoLink" finished-at="2020-07-03T19:57:04 EDT" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:57:04 EDT" name="tearDown" finished-at="2020-07-03T19:57:04 EDT" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:57:04 EDT" name="setUp" finished-at="2020-07-03T19:57:11 EDT" duration-ms="6501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="indexPageTitleTest()[pri:1, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:57:11 EDT" name="indexPageTitleTest" finished-at="2020-07-03T19:57:11 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indexPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.IndexPageTest@149e0f5d]" started-at="2020-07-03T19:57:11 EDT" name="tearDown" finished-at="2020-07-03T19:57:12 EDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.qa.testcases.IndexPageTest -->
+      <class name="com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T19:59:51 EDT" name="setUp" finished-at="2020-07-03T20:00:05 EDT" duration-ms="13698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:05 EDT" name="loginPageTitleTest" finished-at="2020-07-03T20:00:05 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:05 EDT" name="tearDown" finished-at="2020-07-03T20:00:06 EDT" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:06 EDT" name="setUp" finished-at="2020-07-03T20:00:18 EDT" duration-ms="12365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogoImg()[pri:2, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:18 EDT" name="validateLogoImg" finished-at="2020-07-03T20:00:20 EDT" duration-ms="1692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoImg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:20 EDT" name="tearDown" finished-at="2020-07-03T20:00:20 EDT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:21 EDT" name="setUp" finished-at="2020-07-03T20:00:33 EDT" duration-ms="11980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:33 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:00:38 EDT" duration-ms="4955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[JohnS@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John123@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.234567998E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:38 EDT" name="tearDown" finished-at="2020-07-03T20:00:38 EDT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:38 EDT" name="setUp" finished-at="2020-07-03T20:00:50 EDT" duration-ms="11941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:50 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:00:57 EDT" duration-ms="7307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MichaelS@abc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Michael123@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9.87654321E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:57 EDT" name="tearDown" finished-at="2020-07-03T20:00:58 EDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:00:58 EDT" name="setUp" finished-at="2020-07-03T20:01:09 EDT" duration-ms="10871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:09 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:01:16 EDT" duration-ms="7352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bill]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kelly]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BillK123@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BillK123@]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.345678901E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:16 EDT" name="tearDown" finished-at="2020-07-03T20:01:17 EDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:17 EDT" name="setUp" finished-at="2020-07-03T20:01:30 EDT" duration-ms="12625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:30 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:01:34 EDT" duration-ms="4799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brand]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AdamB@rtysf.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AdamB123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3.456789012E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[China]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:34 EDT" name="tearDown" finished-at="2020-07-03T20:01:35 EDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:35 EDT" name="setUp" finished-at="2020-07-03T20:01:45 EDT" duration-ms="10490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:45 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:01:53 EDT" duration-ms="7075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Will]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Henderson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WillH@xyz.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[WillH123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4.567901244E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:53 EDT" name="tearDown" finished-at="2020-07-03T20:01:53 EDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:01:53 EDT" name="setUp" finished-at="2020-07-03T20:02:04 EDT" duration-ms="10890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:04 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:02:10 EDT" duration-ms="6258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samc123@rte.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SamC123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:10 EDT" name="tearDown" finished-at="2020-07-03T20:02:11 EDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:11 EDT" name="setUp" finished-at="2020-07-03T20:02:22 EDT" duration-ms="11349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:22 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:02:27 EDT" duration-ms="4928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sahani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[PriS@yahhoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PriS123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2.345567754E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:27 EDT" name="tearDown" finished-at="2020-07-03T20:02:28 EDT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:28 EDT" name="setUp" finished-at="2020-07-03T20:02:39 EDT" duration-ms="11379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:39 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:02:44 EDT" duration-ms="4753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[David]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bakharia]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DavidS@yahhoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DavidS123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5.678765433E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Brazil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:44 EDT" name="tearDown" finished-at="2020-07-03T20:02:45 EDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:45 EDT" name="setUp" finished-at="2020-07-03T20:02:55 EDT" duration-ms="10513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:02:55 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:03:02 EDT" duration-ms="7307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sean]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Banerjee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SeanS@yahhoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SeanS123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.9966553847E10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Ukraine]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:02 EDT" name="tearDown" finished-at="2020-07-03T20:03:03 EDT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:03 EDT" name="setUp" finished-at="2020-07-03T20:03:14 EDT" duration-ms="11101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:14 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:03:21 EDT" duration-ms="7130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jhakoti]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NehaS@yahhoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NehaS123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3.4636528762E10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Turkey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:21 EDT" name="tearDown" finished-at="2020-07-03T20:03:22 EDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:22 EDT" name="setUp" finished-at="2020-07-03T20:03:33 EDT" duration-ms="11172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:33 EDT" name="clickOnSuppliers" data-provider="getTestDataPHP" finished-at="2020-07-03T20:03:40 EDT" duration-ms="7158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tatvarthi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RamyaS@yahhoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RamyaS123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[8.996553847E9]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Uganda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest@36c88a32]" started-at="2020-07-03T20:03:40 EDT" name="tearDown" finished-at="2020-07-03T20:03:41 EDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.qa.testcases.AdminAccountHomeSuppliersPageTest -->
+      <class name="com.phptravels.qa.testcases.AdminAccountHomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d]" started-at="2020-07-03T19:59:29 EDT" name="setUp" finished-at="2020-07-03T19:59:37 EDT" duration-ms="8455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSuppliers()[pri:1, instance:com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d]" started-at="2020-07-03T19:59:37 EDT" name="clickOnSuppliers" finished-at="2020-07-03T19:59:40 EDT" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSuppliers -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d]" started-at="2020-07-03T19:59:40 EDT" name="setUp" finished-at="2020-07-03T19:59:51 EDT" duration-ms="10805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.phptravels.qa.testcases.AdminAccountHomePageTest@ef9296d]" started-at="2020-07-03T19:59:51 EDT" name="loginPageTitleTest" finished-at="2020-07-03T19:59:51 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+      </class> <!-- com.phptravels.qa.testcases.AdminAccountHomePageTest -->
+      <class name="com.phptravels.qa.testcases.AdminAccountLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:08 EDT" name="setUp" finished-at="2020-07-03T19:59:15 EDT" duration-ms="7085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:15 EDT" name="loginPageTitleTest" finished-at="2020-07-03T19:59:17 EDT" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:17 EDT" name="tearDown" finished-at="2020-07-03T19:59:18 EDT" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:18 EDT" name="setUp" finished-at="2020-07-03T19:59:26 EDT" duration-ms="7263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:26 EDT" name="loginTest" finished-at="2020-07-03T19:59:28 EDT" duration-ms="2298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.AdminAccountLoginPageTest@6af93788]" started-at="2020-07-03T19:59:28 EDT" name="tearDown" finished-at="2020-07-03T19:59:29 EDT" duration-ms="594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.qa.testcases.AdminAccountLoginPageTest -->
+      <class name="com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:33 EDT" name="setUp" finished-at="2020-07-03T19:58:42 EDT" duration-ms="9406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:42 EDT" name="loginPageTitleTest" finished-at="2020-07-03T19:58:42 EDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:42 EDT" name="tearDown" finished-at="2020-07-03T19:58:43 EDT" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:43 EDT" name="setUp" finished-at="2020-07-03T19:58:53 EDT" duration-ms="10807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginImgTest()[pri:2, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:53 EDT" name="validateLoginImgTest" finished-at="2020-07-03T19:58:53 EDT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginImgTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:53 EDT" name="tearDown" finished-at="2020-07-03T19:58:54 EDT" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:58:54 EDT" name="setUp" finished-at="2020-07-03T19:59:07 EDT" duration-ms="13004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:59:07 EDT" name="loginTest" finished-at="2020-07-03T19:59:08 EDT" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest@2f7c2f4f]" started-at="2020-07-03T19:59:08 EDT" name="tearDown" finished-at="2020-07-03T19:59:08 EDT" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.qa.testcases.HomePageFrontUserLoginPageTest -->
+      <class name="com.phptravels.qa.testcases.HomePageFrontUserHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:12 EDT" name="setup" finished-at="2020-07-03T19:57:20 EDT" duration-ms="8441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chooseCurrency()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:20 EDT" name="chooseCurrency" finished-at="2020-07-03T19:57:23 EDT" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseCurrency -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:23 EDT" name="tearDown" finished-at="2020-07-03T19:57:24 EDT" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:24 EDT" name="setup" finished-at="2020-07-03T19:57:31 EDT" duration-ms="7848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chooseLanguage()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:31 EDT" name="chooseLanguage" finished-at="2020-07-03T19:57:36 EDT" duration-ms="4543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseLanguage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:36 EDT" name="tearDown" finished-at="2020-07-03T19:57:37 EDT" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:37 EDT" name="setup" finished-at="2020-07-03T19:57:44 EDT" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillOutTheForm()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:44 EDT" name="fillOutTheForm" finished-at="2020-07-03T19:57:49 EDT" duration-ms="5015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillOutTheForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:49 EDT" name="tearDown" finished-at="2020-07-03T19:57:49 EDT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:49 EDT" name="setup" finished-at="2020-07-03T19:57:56 EDT" duration-ms="6201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateImgLogo()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:56 EDT" name="validateImgLogo" finished-at="2020-07-03T19:57:58 EDT" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImgLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:58 EDT" name="tearDown" finished-at="2020-07-03T19:57:59 EDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:57:59 EDT" name="setup" finished-at="2020-07-03T19:58:05 EDT" duration-ms="6400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginPage()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:05 EDT" name="validateLoginPage" finished-at="2020-07-03T19:58:09 EDT" duration-ms="3757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:09 EDT" name="tearDown" finished-at="2020-07-03T19:58:09 EDT" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:09 EDT" name="setup" finished-at="2020-07-03T19:58:19 EDT" duration-ms="9442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatePageTitle()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:19 EDT" name="validatePageTitle" finished-at="2020-07-03T19:58:22 EDT" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:22 EDT" name="tearDown" finished-at="2020-07-03T19:58:22 EDT" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:22 EDT" name="setup" finished-at="2020-07-03T19:58:29 EDT" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSignInPage()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:29 EDT" name="validateSignInPage" finished-at="2020-07-03T19:58:32 EDT" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignInPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.phptravels.qa.testcases.HomePageFrontUserHomePageTest@1b1473ab]" started-at="2020-07-03T19:58:32 EDT" name="tearDown" finished-at="2020-07-03T19:58:33 EDT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.qa.testcases.HomePageFrontUserHomePageTest -->
+    </test> <!-- PHP Travel Test Regression -->
+  </suite> <!-- PHP Travel Test Automation Suits -->
+</testng-results>

@@ -1,0 +1,6 @@
+com\phptravels\qa\testcases\HomePageFrontUserLoginPageTest.class
+com\phptravels\qa\testcases\AdminAccountHomeSuppliersPageTest.class
+com\phptravels\qa\testcases\AdminAccountLoginPageTest.class
+com\phptravels\qa\testcases\IndexPageTest.class
+com\phptravels\qa\testcases\HomePageFrontUserHomePageTest.class
+com\phptravels\qa\testcases\AdminAccountHomePageTest.class
