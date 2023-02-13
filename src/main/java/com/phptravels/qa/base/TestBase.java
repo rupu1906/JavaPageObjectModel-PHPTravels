@@ -29,7 +29,7 @@ public class TestBase {
 		try {
 			
 			prop=new Properties();
-			 FileInputStream ip = new FileInputStream("C:\\Users\\Sharmistha\\Documents\\Java Training\\PHPTravelsTest\\src\\main\\java\\com\\phptravels\\qa\\conf\\config.properties");
+			 FileInputStream ip = new FileInputStream("src\\main\\java\\com\\phptravels\\qa\\conf\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -51,18 +51,18 @@ public class TestBase {
 			if(browser.equals("chrome"))
 			{
 				
-				System.setProperty("webdriver.chrome.driver","C:/Users/Sharmistha/Documents/Java Training/Selenium Jar files/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","./chromedriver.exe");
 				 driver = new ChromeDriver();
 			}
 			
 			else if(browser.equals("FF")){
-				System.setProperty("webdriver.gecko.driver","C:/Users/Sharmistha/Documents/Java Training/Selenium Jar files/geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver","./geckodriver.exe");
 				 driver = new FirefoxDriver();
 			}
 			
 			else {
 				
-				System.setProperty("webdriver.ie.driver","C:\\Users\\Sharmistha\\Documents\\Java Training\\Selenium Jar files\\IEDriverServer.exe"); 
+				System.setProperty("webdriver.ie.driver",".\\IEDriverServer.exe"); 
 				 driver=new InternetExplorerDriver();
 				
 			}
