@@ -25,8 +25,9 @@ public class TestUtil extends TestBase{
 
 	public static long PAGE_LOAD_TIMEOUT=20;
 	public static long IMPLICITE_WAIT=20;
-	
-	public static String TEST_DATA_SHEET="C:\\Users\\Sharmistha\\Documents\\Java Training\\PHPTravelsTest\\src\\main\\java\\com\\phptravels\\qa\\testdata\\DemoFile.xlsx";
+	String currentDir = System.getProperty("user.dir");
+	String path = "\\src\\main\\java\\com\\phptravels\\qa\\testdata\\DemoFile.xlsx";
+	public static String TEST_DATA_SHEET=currentDir+path;
 	public static Workbook book;
 	public static XSSFSheet sheet;
 	
